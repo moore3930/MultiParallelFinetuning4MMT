@@ -1,0 +1,32 @@
+GET_BLEU=./get_sacre_bleu.sh
+PAIRS=./lang_pairs.txt
+
+YOUR_CHECKPOINT_DIR=xxxx
+
+RESULT_DIR=$YOUR_CHECKPOINT_DIR/europarl-analysis-1-42-1/xx
+OUTPUT_FILE=${RESULT_DIR}/all_results.txt
+sbatch $GET_BLEU $PAIRS $RESULT_DIR ${OUTPUT_FILE}
+
+RESULT_DIR=$YOUR_CHECKPOINT_DIR/europarl-analysis-2-42-1/xx
+OUTPUT_FILE=${RESULT_DIR}/all_results.txt
+sbatch $GET_BLEU $PAIRS $RESULT_DIR ${OUTPUT_FILE}
+
+RESULT_DIR=$YOUR_CHECKPOINT_DIR/europarl-analysis-5-42-1/xx
+OUTPUT_FILE=${RESULT_DIR}/all_results.txt
+sbatch $GET_BLEU $PAIRS $RESULT_DIR ${OUTPUT_FILE}
+
+RESULT_DIR=$YOUR_CHECKPOINT_DIR/europarl-analysis-10-42-1/xx
+OUTPUT_FILE=${RESULT_DIR}/all_results.txt
+sbatch $GET_BLEU $PAIRS $RESULT_DIR ${OUTPUT_FILE}
+
+RESULT_DIR=$YOUR_CHECKPOINT_DIR/europarl-analysis-25-42-1/xx
+OUTPUT_FILE=${RESULT_DIR}/all_results.txt
+sbatch $GET_BLEU $PAIRS $RESULT_DIR ${OUTPUT_FILE}
+
+RESULT_DIR=$YOUR_CHECKPOINT_DIR//europarl-analysis-50-42-1/xx
+OUTPUT_FILE=${RESULT_DIR}/all_results.txt
+sbatch $GET_BLEU $PAIRS $RESULT_DIR ${OUTPUT_FILE}
+
+RESULT_DIR=$YOUR_CHECKPOINT_DIR//europarl-analysis-100-42-1/xx
+OUTPUT_FILE=${RESULT_DIR}/all_results.txt
+sbatch $GET_BLEU $PAIRS $RESULT_DIR ${OUTPUT_FILE}
