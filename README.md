@@ -1,4 +1,4 @@
-# How Far Can 100 Samples Go?
+# How Far Can 100 Samples Go? Unlocking Zero-Shot Multilingual Translation via Tiny Multi-Parallel Data
 
 ## Introduction
 In this paper, we show that the zero-shot capability of an English-centric model is often overlooked. Surprisingly large non-English improvements can be achieved by simply fine-tuning with a very small amount of multi-parallel data. 
