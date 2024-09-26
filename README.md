@@ -38,15 +38,16 @@ For the Europarl-8 experiments, you can easily reproduce using following stuffs:
    2. Finetune Set: Please unzip the [finetune set](https://github.com/research-anonymous/MultiParallelFinetuning4MMT/tree/main/europarl_experiments/data), where train, valid, and test sets are NTREX, Flores-dev and Flores-devtest, respectively.
    3. Raw & preprocessed data, and the fairseq databin for training are all included.
 3. Training and Evaluation: 
-   1. Code for training and evaluation: [Code](https://github.com/research-anonymous/MultiParallelFinetuning4MMT/tree/main/europarl_experiments/scripts)
+   1. Code for training and evaluation: [code](https://github.com/research-anonymous/MultiParallelFinetuning4MMT/tree/main/europarl_experiments/scripts)
 
-[//]: # (For the EC30 experiments, you can easily reproduce using following stuffs:)
-
-[//]: # (1. EC30 Models:)
-
-[//]: # (   1. English-centric Model &#40;baseline&#41;: [download]&#40;https://drive.google.com/file/d/147p6LCBSr5VKoCtBRMEXEXZzONJM35W8/view?usp=drive_link&#41;)
-
-[//]: # (   3. Boosted Model &#40;Tuned with NTREX&#41;: [download]&#40;https://drive.google.com/file/d/1G4mjNXwmVOqNZbrNog7KznYsO1LiFMIx/view?usp=drive_link&#41;)
+For the EC30 experiments, you can easily reproduce using following stuffs:
+1. EC30 Models:
+   1. English-centric Model (baseline): [download](https://drive.google.com/file/d/147p6LCBSr5VKoCtBRMEXEXZzONJM35W8/view?usp=drive_link)
+   2. Boosted Model (Tuned with NTREX): [download](https://drive.google.com/file/d/1G4mjNXwmVOqNZbrNog7KznYsO1LiFMIx/view?usp=drive_link)
+2. Dataset:
+   1. You can find the raw and preprocessed [dataset](https://github.com/moore3930/BeyondSharedVocabulary?tab=readme-ov-file#data_model) here.
+3. Training and Evaluation:
+   1. Code for training and evaluation: [code](wait)
 
 ## Reference
 If you find our work or code useful, please cite ([Di Wu et al., 2024](https://aclanthology.org/2024.findings-acl.896/))
