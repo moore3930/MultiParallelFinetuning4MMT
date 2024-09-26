@@ -17,7 +17,13 @@ When investigating the size effect of fine-tuning data and its transfer capabili
 
 ## Experiments
 ### Enviorments
-
+```
+python==3.7   
+torch==1.12.1+cu113  
+torchvision==0.13.1+cu113
+torchaudio==0.12.1+cu113   
+fairseq
+```
 ### Code, Data, and Models
 Please download the models, and put it in correct dir for quick reproducing. Also, you can train your own English-centric 
 baseline using the below Dataset.
