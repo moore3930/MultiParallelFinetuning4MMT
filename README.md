@@ -45,7 +45,8 @@ For the EC30 experiments, you can easily reproduce using following stuffs:
    1. English-centric Model (baseline): [download](https://drive.google.com/file/d/147p6LCBSr5VKoCtBRMEXEXZzONJM35W8/view?usp=drive_link)
    2. Boosted Model (Tuned with NTREX): [download](https://drive.google.com/file/d/1G4mjNXwmVOqNZbrNog7KznYsO1LiFMIx/view?usp=drive_link)
 2. Dataset:
-   1. You can find the raw and preprocessed [dataset](https://github.com/moore3930/BeyondSharedVocabulary?tab=readme-ov-file#data_model) here.
+   1. Train Set: You can find the raw and preprocessed [dataset](https://github.com/moore3930/BeyondSharedVocabulary?tab=readme-ov-file#data_model) here.
+   2. Finetune Set: Please unzip the [finetune set](https://github.com/research-anonymous/MultiParallelFinetuning4MMT/tree/main/europarl_experiments/data).
 3. Training and Evaluation:
    1. Code for training and evaluation: [code](wait)
 
