@@ -15,7 +15,10 @@ When investigating the size effect of fine-tuning data and its transfer capabili
 2) The resulting non-English performance is close to the complete translation upper bound. 
 3) **Even in a minimal setting---fine-tuning with only one single sample---the well-known off-target issue is almost completely resolved, explaining parts--but not all---of the observed improvements in translation quality**
 
-## Code, Data, and Models
+## Experiments
+### Enviorments
+
+### Code, Data, and Models
 Please download the models, and put it in correct dir for quick reproducing. Also, you can train your own English-centric 
 baseline using the below Dataset.
 
@@ -25,9 +28,9 @@ For the Europarl-8 experiments, you can easily reproduce using following stuffs:
    2. Upper-bound Model (Complete Translation): [download](https://drive.google.com/file/d/1LNieAwW68sgPz_FuYnpAb_VNooPBXG7l/view?usp=drive_link)
    3. Boosted Model (Tuned with NTREX): [download](https://drive.google.com/file/d/1bP_jD_jZfLJToOaZsgYNTQlju5RBHUhH/view?usp=sharing)
 2. Dataset: 
-   1. Train Set: Please download and unzip the [dataset](https://drive.google.com/file/d/1A28_aAzmZ53khWtd8Tnx-mBmAMcazC-U/view?usp=drive_link). 
+   1. Train Set: Please download and unzip the [dataset](https://drive.google.com/file/d/1A28_aAzmZ53khWtd8Tnx-mBmAMcazC-U/view?usp=drive_link). It contains 1.2M 8-way aligned sentences. 
    2. Finetune Set: Please unzip the [finetune set](https://github.com/research-anonymous/MultiParallelFinetuning4MMT/tree/main/europarl_experiments/data), where train, valid, and test sets are NTREX, Flores-dev and Flores-devtest, respectively.
-   3. Raw & preprocessed data, and the databin for training are all included.
+   3. Raw & preprocessed data, and the fairseq databin for training are all included.
 3. Training and Evaluation: 
    1. Code for training and evaluation: [Code](https://github.com/research-anonymous/MultiParallelFinetuning4MMT/tree/main/europarl_experiments/scripts)
 
