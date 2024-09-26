@@ -47,3 +47,15 @@ For the Europarl-8 experiments, you can easily reproduce using following stuffs:
 [//]: # (   1. English-centric Model &#40;baseline&#41;: [download]&#40;https://drive.google.com/file/d/147p6LCBSr5VKoCtBRMEXEXZzONJM35W8/view?usp=drive_link&#41;)
 
 [//]: # (   3. Boosted Model &#40;Tuned with NTREX&#41;: [download]&#40;https://drive.google.com/file/d/1G4mjNXwmVOqNZbrNog7KznYsO1LiFMIx/view?usp=drive_link&#41;)
+
+## Reference
+If you find our work or code useful, please cite ([Di Wu et al., 2024](https://aclanthology.org/2024.findings-acl.896/))
+```angular2html
+@inproceedings{wu2024far,
+  title={How Far can 100 Samples Go? Unlocking Zero-Shot Translation with Tiny Multi-Parallel Data},
+  author={Wu, Di and Tan, Shaomu and Meng, Yan and Stap, David and Monz, Christof},
+  booktitle={Findings of the Association for Computational Linguistics ACL 2024},
+  pages={15092--15108},
+  year={2024}
+}
+```
